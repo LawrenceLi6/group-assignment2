@@ -8,10 +8,7 @@
 // These values can only be set at creation time.
 // The number should be between 0x0 and 0xF.
 
-typedef struct _card {
-    suit s;
-    value val;
-    color c;
+
 } card;
 
 Card newCard(value value, color color, suit suit) {
